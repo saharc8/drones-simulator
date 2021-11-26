@@ -1,46 +1,17 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Drones in TLV</title>
+  </head>
 
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>TODO List</title>
-</head>
-
-<body>
+  <body>
     <div class="header">
-        <h1>My TODO List</h1>
-        <input type="text" id="myTODO" placeholder="Add new task description">
-        <span class="dropdown">
-    <button id="ddbtn" class="dropbtn">Normal</button>
-      <div id="dropdown" class="dropdown-content">
-       <a href="#" class="red" onClick="setPriority('Urgent')">Urgent</a>
-       <a href="#" class="orange" onClick="setPriority('Critical')">Critical</a>
-       <a href="#" class="green" onClick="setPriority('Normal')">Normal</a>
-       <a href="#" class="blue" onClick="setPriority('If You Can')">If You Can</a>
-      </div>
-    </span>
-        <span onclick="newElement()" class="addBtn">Add</span>
+      <h1>Drones in TLV</h1>
     </div>
 
-    <ul id="list">
-        <li id="1">Cleen Home -
-            <span class=red>Urgent</span>
-        </li>
-        <li id="2">Attend Selection Day -
-            <span class=orange>Critical</span>
-        </li>
-        <li id="3">Register to Full Stack Web Course -
-            <span class=green>Normal</span>
-        </li>
-        <li id="4">Go see X-Men apocalypse movie -
-            <span class=blue> If You Can</span>
-        </li>
-    </ul>
-
-    <script src="code.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
